@@ -81,9 +81,9 @@ int main() {
   Print only 4 bits, in positions: 3,5,7,11 in the result. */
   int first_num;
   int second_num;
-  printf("Please enter the first number(octal):\n");
+  printf("Please enter the first number (octal):\n");
   scanf("%o", &first_num);
-  printf("Please enter the second number(octal):\n");
+  printf("Please enter the second number (octal):\n");
   scanf("%o", &second_num);
   
   int sum = first_num+second_num;
